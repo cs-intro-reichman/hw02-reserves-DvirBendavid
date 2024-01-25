@@ -71,9 +71,9 @@ public class OneOfEachStats {
 		if(child4 >= child2 && child4 >= child3)
 			System.out.println("The most common number of children is 4 or more.");
 		if(child2 >= child4 && child2 >= child3)
-			System.out.println("The most common number of children is 2");
+			System.out.println("The most common number of children is 2.");
 		if(child3 >= child4 && child3 >= child2)
-			System.out.println("The most common number of children is 3");
+			System.out.println("The most common number of children is 3.");
 				
 		
 		//// In the previous version of this program, you used a statement like:
