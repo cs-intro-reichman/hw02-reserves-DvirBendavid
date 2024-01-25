@@ -17,7 +17,7 @@ public class DamkaBoard {
 				System.out.print("* ");
 				j++;
 			}
-			System.out.println("");
+			System.out.println();
 		}
 
 	}
