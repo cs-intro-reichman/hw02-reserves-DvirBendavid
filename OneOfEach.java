@@ -14,7 +14,7 @@ public class OneOfEach {
 
 			double rand = Math.random();
 
-			if (rand <= 0.5) {
+			if (rand > 0.5) {
 				boy = true;
 				System.out.print("b ");
 			}

@@ -14,10 +14,10 @@ public class DamkaBoard {
 
 			int j = 0;
 			while (j < n) {
-				if(j == n-1)
-					System.out.print("*");
-				else
+				if(j != n-1)
 					System.out.print("* ");
+				else
+					System.out.print("*");
 				j++;
 			}
 			System.out.println();
