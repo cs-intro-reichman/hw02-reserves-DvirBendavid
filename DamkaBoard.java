@@ -19,7 +19,7 @@ public class DamkaBoard {
 		while(j < n){
 			
 			if(j == 0 || j % 2 == 0)
-				System.out.println(out);
+				System.out.println(out + " ");
 			else
 				System.out.println(" " + out);
 			
