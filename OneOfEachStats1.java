@@ -6,13 +6,17 @@
  */
 public class OneOfEachStats1 {
 	public static void main (String[] args) {
-		
+
+		//get the number of families to check.
 		int t = Integer.parseInt(args[0]);
+
+		//create a variable for the amount of children with 2 , 3 , 4 or more kids. 
 		int child2 = 0;
 		int child3 = 0;
 		int child4 = 0;
 		double average =0;
 		
+		//runs the OneOfEach t times
 		for(int i =0; i < t; i++){
 			
 			boolean boy = false;
@@ -38,6 +42,8 @@ public class OneOfEachStats1 {
 				
 				
 			}
+
+				//add the child count to average and check how big is count.
 				average+= count;
 				
 				if(count == 2)
@@ -52,7 +58,7 @@ public class OneOfEachStats1 {
 				
 		}
 		
-		
+		// calc the average and check the most common number of children. 
 		average = (average/t);
 		System.out.println("Average: " + average + " children to get at least one of each gender.");
 		System.out.println("Number of families with 2 children: " + child2);
